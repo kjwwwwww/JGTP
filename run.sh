@@ -34,7 +34,7 @@ do
     echo "Writing logs to ${logfile}"
     printf "${dataset}-${size}\n" | tee "${logfile}"
     t1="$(date +'%s.%N')"
-    CUDA_VISIBLE_DEVICES="${gpu}" python3 -u main_lt+FGW.py --target_size_frac "${size}" --dataset "${dataset}" --nepochs 100 --save 2> >(while read line; do echo "err: $line"; done >&1) > >(while read line; do echo "$line"; done >&1) | tee -a "${logfile}"
+    CUDA_VISIBLE_DEVICES="${gpu}" python3 -u main_JGTP.py --target_size_frac "${size}" --dataset "${dataset}" --nepochs 100 --save 2> >(while read line; do echo "err: $line"; done >&1) > >(while read line; do echo "$line"; done >&1) | tee -a "${logfile}"
     t2="$(date +'%s.%N')"
     dur=$(echo "${t2}-${t1}" | bc)
     printf "It took %ss\n" "${dur}" | tee -a "${logfile}"
