@@ -36,3 +36,5 @@ torch_geometric==2.3.1
 torchvision==0.14.1
 tqdm==4.66.2
 ```
+##RUN
+bash run.sh 
