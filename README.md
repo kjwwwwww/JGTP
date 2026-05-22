@@ -1,3 +1,3 @@
 # JGTP
 Training-Free Graph Condensation via Joint-Granularity Topology Preservation
-<img width="1024" height="1536" alt="5f1c973d-55d8-496c-ab2c-1339dc82af46" src="https://github.com/user-attachments/assets/20b7008a-716f-4aae-be88-d18fbbecf552" />
+<img width="1536" height="1024" alt="a60a9281-2e16-4d5e-916d-c224b4e9f5f7" src="https://github.com/user-attachments/assets/ea1eb190-6845-4e09-b393-b47ee6c3b792" />
