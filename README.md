@@ -16,3 +16,23 @@ Download the files and unzip them to `datasets` at the root directory.
 | Ogbn-arxiv | 169,343 | 2,315,598 | 40 | 128 |
 | Reddit | 232,965 | 23,213,838 | 41 | 602 |
 | MAG240M | 1,398,159 | 26,434,726 | 153 | 768 |
+# Requirements
+
+```bash
+networkx==3.2.1
+numpy==1.26.4
+pandas==2.2.2
+protobuf==5.26.1
+pyg-lib==0.3.1+pt113cu117
+scikit-learn==1.4.2
+scipy==1.13.0
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+tensorboardX==2.6.2.2
+torch==1.13.1+cu117
+torch-scatter==2.0.9
+torch-sparse==0.6.15+pt113cu117
+torch_geometric==2.3.1
+torchvision==0.14.1
+tqdm==4.66.2
+```
