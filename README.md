@@ -5,7 +5,7 @@ Training-Free Graph Condensation via Joint-Granularity Topology Preservation
 
 For Cora, Citeseer, and Pubmed, the code will directly download them from PyTorch Geometric.  
 For Flickr, Ogbn-arxiv, and Reddit, we use the datasets provided by [GraphSAINT](https://github.com/GraphSAINT/GraphSAINT).  
-They are available on [this Google Drive link](#) provided by the GraphSAINT team.  
+They are available on [this Google Drive link](https://drive.google.com/open?id=1zycmmDES39zVlbVCYs88JTJ1Wm5FbfLz) provided by the GraphSAINT team.  
 Download the files and unzip them to `datasets` at the root directory.
 | Dataset | #Nodes | #Edges | #Classes | #Features |
 |---|---:|---:|---:|---:|
